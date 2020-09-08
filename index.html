@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body onload="income()">
+    <div class="heading">
+      <h1><a href="index.html">Expense Tracker</a></h1>
+    </div>
+    <div class="mainboxes">
+       <div class="income">
+       <h2>INCOME: </h2>
+       <h2 id="income"> </h2>
+       </div>
+       <div class="expenses">
+       <h2>EXPENSES: </h2>
+       <h2 id="expenses"></h2>
+       </div>
+       <div class="expenseadd">
+           <input type="text" id="expenseitem" placeholder="Expense name..." class="txtbox">
+           <input type="number" id="price" placeholder="Expense price..." class="txtbox">
+       </div>
+    </div>
+    <div class="btn">
+        <button onclick="additem()" class="addbtn">Add Expense</button>
+    </div>
+    <div id="items">
+     <h2 class="fonttype"><b>YOUR EXPENSES SO FAR:</b></h2>
+     <label class="fonttype"><b>(of today)</b></label>
+    </div>
+</body>
+</html>

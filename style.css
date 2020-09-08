@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    background-color: lightsteelblue;
+}
+
+.income {
+    background-color: green;
+    float: left;
+}
+
+.expenses {
+    background-color: red;
+    float: left;
+}
+
+.expenseadd {
+    float: left;
+}
+
+.addbtn {
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    font-family: sans-serif;
+    width: 321px;
+}
+
+.txtbox {
+  border: 2px solid gray;
+  background-color: burlywood;
+  font-family: sans-serif;
+}
+
+.fonttype {
+    font-family: sans-serif;
+}
+
+.expenselabel {
+    float: left;
+}
+
+.expenseadd {
+    float: left;
+}
+@media only screen and (max-width : 860px) {
+    .addbtn:hover {
+        height: 30px;
+    }
+
+    .txtbox:hover {
+        border: 2px solid black;
+    }
+}
